@@ -1,0 +1,742 @@
+@CHARSET "ISO-8859-1";
+
+body {
+   background-size:cover;
+  	background-image:url("images/j.jpg");
+  	background-attachment: fixed;
+  	/*width:100%;
+	height:100%;
+	background:linear-gradient(red,#0b485b,#76F54C,#2196f3,#4757F4);
+	background-size:200% 200%;
+	animation:gradient 20s ease infinite;*/
+	
+}
+
+
+.sell{
+	margin-left:150px;
+	float:left;
+	background-image: linear-gradient(black,blue);
+    color: white;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+	
+}
+
+.body{
+	
+	background-color: grey;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+#header{
+	
+	background-color:black;
+	margin-top:10px;
+	opacity : .7;
+	border-radius: 5px;
+	
+}
+
+#user{
+	
+	float:right;
+	color:blue;
+	margin-right: 100px;
+}
+
+.table1{
+	background-image: linear-gradient(#c0c0c0,white, #c0c0c0);
+	opacity:.9;
+	
+}
+
+#cursor{
+	cursor:not-allowed;
+	}
+#logo{
+	background-image:url("images/tr.png");
+	background-size :cover;
+	width: 400px;
+	height: 200px;
+	margin-top:-70px;
+	margin-left: 50px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	
+	
+}
+
+#h1{
+	
+	margin-top: -80px;
+	color: white;
+	font-size: 50px;
+}
+
+
+#footer{
+	
+	/*background-image: url("show10.jpg");*/
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	opacity : .8;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+#addItem{
+	background-image: linear-gradient(grey, #c0c0c0);
+	width : 60%;
+	margin-top: -450px;
+	border-radius: 15px;
+	float:center;
+	opacity:.9;
+	
+}
+
+#janaka{
+	background: url("images/home2.jpg");
+	background-size:cover;
+	width : 60%;
+	margin-top: 50px;
+	border-radius: 15px;
+	float:center;
+	margin-top: -410px;
+	opacity:.8;
+}
+
+#listCat{
+	background-image: linear-gradient(grey, #c0c0c0,grey, #c0c0c0,grey, #c0c0c0);
+	
+	background-size:cover;
+	width : 60%;
+	margin-top: 50px;
+	border-radius: 15px;
+	float:center;
+	margin-top: -410px;
+	opacity:.9;
+}
+
+#adminItem{
+	background: url("images/fr.jpg");
+	background-size:cover;
+	width : 40%;
+	margin-top: -400px;
+	border-radius: 15px;
+	float:center;
+	margin-top: -410px
+	opacity:.8;
+	
+}
+
+#adminItem1{
+	background-image: linear-gradient(grey, #c0c0c0);
+	opacity: .8;
+	
+}
+
+#adminItemtable{
+	
+	color:black;
+}
+
+#adminItemtable1{
+	
+	color:maroon;
+}
+
+#confirm{
+	
+	margin-left:400px;
+}
+
+#log1{
+	background: url("images/home2.jpg");
+	background-size:cover;
+	width : 60%;
+	margin-top: -470px;
+	border-radius: 15px;
+	float:center;
+	opacity:.8;
+}
+
+
+#log2{
+	
+	margin-left:370px;
+	width:60%;
+	border-radius: 10px;
+	margin-top: 100px;
+	
+}
+
+
+
+#SellerView{
+	
+	background-color : #c0c0c0;
+	opacity:.9;
+	width : 70%;
+	margin-top: -400px;
+	margin-bottom: 10px;
+	border-radius: 50px;
+	margin-left: 200px;
+}
+
+#img3{
+	
+	
+	background-color: grey;
+}
+
+#img4{
+		height:5px;
+	background-color: black;
+	
+}
+#janaka1{
+	background-image: linear-gradient(#c0c0c0, grey);
+	margin-top: -450px;
+	width : 60%;
+	margin-bottom: 100px;
+	border-radius: 50px;
+	
+}
+
+
+
+#buyerview1{
+	
+	margin-top: -450px;
+	margin-left:250px;
+	width : 60%;
+	margin-bottom: 100px;
+	border-radius: 50px;
+	padding-left:100px ;
+	
+}
+
+#listHeading{
+	background-image: linear-gradient(#c0c0c0, grey, #c0c0c0);
+	width: 100%;
+	margin-left: -100px;
+	border-radius: 15px;
+}
+
+#AdminList{
+	background: url("images/download (6).jpg");
+	background-size:cover;
+	margin-right:-350px;
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	opacity:.8;
+	
+}
+
+#BuyerList{
+	background: url("images/images (2).jpg");
+	background-size:cover;
+	margin-top:-100px;
+	margin-left:-350px;
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	opacity:.8;
+}
+#SellerList{
+	background: url("images/download (3).jpg");
+	background-size:cover;
+	margin-top:-100px;
+	margin-right:-350px;
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	opacity:.8;
+}
+
+#ItemList{
+	background: url("images/images (6).jpg");
+	background-size:cover;
+	margin-top:-100px;
+	margin-left:-350px;
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	opacity:.8;
+}
+
+#BidList{
+	background: url("images/download (9).jpg");
+	background-size:cover;
+	margin-top:-100px;
+	margin-right:-350px;
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	opacity:.8;
+}
+#FeedbackList{
+	background: url("images/download (1).png");
+	background-size:cover;
+	margin-top:-100px;
+	margin-left:-350px;
+	width:300px;
+	height:300px;
+	border-radius: 50px;
+	opacity:.8;
+}
+
+
+
+#reg1{
+	margin-top:-420px;
+	background: url("images/home3.jpg");
+	background-size:cover;
+	width : 60%;
+	border-radius: 15px;
+	float:center;
+	opacity:.8;
+}
+
+#reg2{
+	color: maroon;
+	width: 50%;
+	margin-left: -350px;
+	
+}
+
+#item{
+	
+	background-color: red;
+}
+
+#itemUnique{
+	
+	width: 100%;
+	
+	background-size:inherit;
+	margin-top: 80px;
+	border-radius: 5px;
+	
+}
+
+#jjj{
+	
+	width:15px;
+	height: 15px;
+	background-color: blue;
+	
+}
+
+#janaka3{
+	
+	background-color : black;
+	width : 50%;
+	margin-top: -400px;
+	margin-bottom: 100px;
+	border-radius: 50px;
+	opacity:.7;
+}
+
+
+
+
+#nev{
+	
+	width:15%;
+	
+	float: left;
+	background-color: black;
+	opacity: .7;
+	
+}
+
+
+#a1{
+	
+	font-size: 15px;
+}
+a{
+	color: blue;
+}
+h1 {
+    color: #2b2bff;
+    margin-left: 40px;
+}
+h2{
+	color: blue; 
+	
+} 
+#info{
+	
+	background-color : black;
+	color : white;
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#j{
+	color: red;
+	font-size:20px;
+}
+
+
+
+
+td{
+	color : blue;
+	
+}
+th
+	{
+	color : black;
+	text-align: left;
+	
+}
+
+#AdminListButton{
+	
+	background-image: linear-gradient(black,red);
+    color: white;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+    margin-top: 310px;
+}
+
+#SellerListButton{
+	
+	background-image: linear-gradient(black,red);
+    color: white;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+    margin-top: 310px;
+}
+#BuyerListButton{
+	
+	background-image: linear-gradient(black,red);
+    color: white;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+    margin-top: 310px;
+}
+#ItemListButton{
+	
+	background-image: linear-gradient(black,red);
+    color: white;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+    margin-top: 310px;
+}
+#BidListButton{
+	
+	background-image: linear-gradient(black,red);
+    color: white;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+    margin-top: 310px;
+}
+#FeedbackListButton{
+	
+	background-image: linear-gradient(black,red);
+    color: white;
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+    margin-top: 310px;
+}
+.add-button {
+   background-image: linear-gradient(black,blue);
+    color: white;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+}
+
+.reset-button {
+ background-image: linear-gradient(black,red);
+    color: white;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+}
+
+.list-button {
+   background-image: linear-gradient(black,blue);
+    color: white;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+}
+
+.delete-button {
+   background-image: linear-gradient(black,red);
+    color: white;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+}
+
+.update-button {
+   background-image: linear-gradient(black,blue);
+    color: white;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+}
+
+.select-button {
+    background-image: linear-gradient(black,blue);
+    color: white;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+}
+#select-button {
+    background-image: linear-gradient(black,blue);
+    color: white;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    opacity:.9;
+}
+
+#slide{
+	
+	width: 100%;
+	
+}
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  height: 80px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+#foot{
+	width:1250px;
+	height:50px;
+	background:#cfa9dd;
+	font-size:15px;
+	border-style:bold;
+	text-align:center;
+	padding-top:20px;
+	float:left;
+}
+#foot1{
+	
+}
+
+
+//nav left
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 17%;
+  background-image: linear-gradient(grey, #c0c0c0);
+  overflow: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity:.9;
+}
+
+#i{
+
+}
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: grey;
+}
+
+.active {
+  background-color: #c0c0c0;
+  opacity:.8;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+a{
+	font-size: 30px;
+}
+
+#td{
+
+color:white
+}
+
+.navbar1 {
+  width: 100%;
+  overflow: auto;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  margin-top:10px;
+  background-color:black;
+
+  border-radius: 5px;
+}
+
+.navbar1 a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar1 a:hover {
+  background-color: #c0c0c0;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar1 a {
+    float: none;
+    display: block;
+  }
+}
