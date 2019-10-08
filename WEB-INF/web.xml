@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>SLIIT OOP Auction System web App</display-name>
+ 
+  <servlet>
+    <servlet-name>AddItemServlet</servlet-name>
+    <servlet-class>com.oop.servlet.AddItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateItemServlet</servlet-name>
+    <servlet-class>com.oop.servlet.UpdateItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteItemServlet</servlet-name>
+    <servlet-class>com.oop.servlet.DeleteItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetItemServlet</servlet-name>
+    <servlet-class>com.oop.servlet.GetItemServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListItemServlet</servlet-name>
+    <servlet-class>com.oop.servlet.ListItemServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>AddItemServlet</servlet-name>
+    <url-pattern>/AddItemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateItemServlet</servlet-name>
+    <url-pattern>/UpdateItemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteItemServlet</servlet-name>
+    <url-pattern>/DeleteItemServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetItemServlet</servlet-name>
+    <url-pattern>/GetItemServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ListItemServlet</servlet-name>
+    <url-pattern>/ListItemServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>homeView.html</welcome-file>
+    <welcome-file>homeView.htm</welcome-file>
+    <welcome-file>welcome.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+ 
+  <display-name>OOP Person Web App</display-name>
+ 
+  <servlet>
+    <servlet-name>AddPersonServlet</servlet-name>
+    <servlet-class>com.oop.servlet.AddPersonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdatePersonServlet</servlet-name>
+    <servlet-class>com.oop.servlet.UpdatePersonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeletePersonServlet</servlet-name>
+    <servlet-class>com.oop.servlet.DeletePersonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetPersonServlet</servlet-name>
+    <servlet-class>com.oop.servlet.GetPersonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListPersonServlet</servlet-name>
+    <servlet-class>com.oop.servlet.ListPersonServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>AddPersonServlet</servlet-name>
+    <url-pattern>/AddPersonServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePersonServlet</servlet-name>
+    <url-pattern>/UpdatePersonServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletePersonServlet</servlet-name>
+    <url-pattern>/DeletePersonServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPersonServlet</servlet-name>
+    <url-pattern>/GetPersonServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ListPersonServlet</servlet-name>
+    <url-pattern>/ListPersonServlet</url-pattern>
+  </servlet-mapping>
+  
+ 
+  <welcome-file-list>
+    <welcome-file>homeView.html</welcome-file>
+    <welcome-file>homeView.htm</welcome-file>
+    <welcome-file>welcome.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+
+    <servlet>
+    <servlet-name>AddSellerServlet</servlet-name>
+    <servlet-class>com.oop.servlet.AddSellerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateSellerServlet</servlet-name>
+    <servlet-class>com.oop.servlet.UpdateSellerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteSellerServlet</servlet-name>
+    <servlet-class>com.oop.servlet.DeleteSellerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSellerServlet</servlet-name>
+    <servlet-class>com.oop.servlet.GetSellerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListSellerServlet</servlet-name>
+    <servlet-class>com.oop.servlet.ListSellerServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>AddSellerServlet</servlet-name>
+    <url-pattern>/AddSellerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateSellerServlet</servlet-name>
+    <url-pattern>/UpdateSellerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteSellerServlet</servlet-name>
+    <url-pattern>/DeleteSellerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSellerServlet</servlet-name>
+    <url-pattern>/GetSellerServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ListSellerServlet</servlet-name>
+    <url-pattern>/ListSellerServlet</url-pattern>
+  </servlet-mapping>
+  
+ 
+  <welcome-file-list>
+    <welcome-file>homeView.html</welcome-file>
+    <welcome-file>homeView.htm</welcome-file>
+    <welcome-file>welcome.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  
+  
+  
+  
+  
+  
+      <servlet>
+    <servlet-name>AddBuyerServlet</servlet-name>
+    <servlet-class>com.oop.servlet.AddBuyerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateBuyerServlet</servlet-name>
+    <servlet-class>com.oop.servlet.UpdateBuyerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteBuyerServlet</servlet-name>
+    <servlet-class>com.oop.servlet.DeleteBuyerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetBuyerServlet</servlet-name>
+    <servlet-class>com.oop.servlet.GetBuyerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ListBuyerServlet</servlet-name>
+    <servlet-class>com.oop.servlet.ListBuyerServlet</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+    <servlet-name>AddBuyerServlet</servlet-name>
+    <url-pattern>/AddBuyerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateBuyerServlet</servlet-name>
+    <url-pattern>/UpdateBuyerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteBuyerServlet</servlet-name>
+    <url-pattern>/DeleteBuyerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBuyerServlet</servlet-name>
+    <url-pattern>/GetBuyerServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ListBuyerServlet</servlet-name>
+    <url-pattern>/ListBuyerServlet</url-pattern>
+  </servlet-mapping>
+  
+ 
+  <welcome-file-list>
+    <welcome-file>homeView.html</welcome-file>
+    <welcome-file>homeView.htm</welcome-file>
+    <welcome-file>welcome.jsp</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+ 
+  
+ 
+
+
+</web-app>

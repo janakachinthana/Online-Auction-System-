@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- by group15,  OOP Assignment, june intake, 2019, 
+	SQL queries -->
+<Querys>
+
+	<!-- Create table item Query -->
+	<query id="create_item_table">
+        <![CDATA[
+            CREATE TABLE item(
+				itemID varchar(10) not null,
+				itemName varchar(100),
+				price  varchar(50),
+				description varchar(1000),
+				closingDate varchar(100),
+				itemImage LONGBLOB,
+				primary key (itemID)
+			)
+        ]]>
+	</query>
+
+	<!-- DROP TABLE ITEMS Query -->
+	<query id="drop_table">
+         <![CDATA[        
+            DROP TABLE IF EXISTS item 
+        ]]>
+	</query>
+
+	<!-- Select all customer orders Query -->
+	<query id="insert_item">
+        <![CDATA[
+          	insert into item (itemID, itemName, price, description, closingDate, itemImage) 
+          	values (?, ?, ?, ?, ?, ?)
+        ]]>
+	</query>
+	
+	<!-- Select a particular item by id Query -->
+	<query id="item_by_id">
+         <![CDATA[        
+            select * from item where item.itemID = ?
+        ]]>
+	</query>
+
+	<!-- Select all items -->
+	<query id="all_items">
+         <![CDATA[        
+            select * from item
+            order by item.itemID desc
+        ]]>
+	</query>
+
+	<!-- Delete a particular item by id Query -->
+	<query id="remove_item">
+         <![CDATA[        
+            delete from item where item.itemID = ?
+        ]]>
+	</query>
+	
+	<!-- Update a particular item by id Query -->
+	<query id="update_item">
+         <![CDATA[        
+            update item as e 
+            set e.itemName = ?, e.price = ?, e.description = ?, e.closingDate = ?, e.itemImage = ?
+            where e.itemID = ?
+        ]]>
+	</query>
+	
+		<!-- Get item IDs Query -->
+	<query id="item_ids">
+         <![CDATA[        
+            select e.itemID from item as e
+        ]]>
+	</query>
+	
+	
+	
+	
+	<!-- Create table person Query -->
+	<query id="create_person_table">
+        <![CDATA[
+            CREATE TABLE person(
+				personID varchar(10) not null,
+				firstName varchar(20),
+				lastName varchar(20),
+				email varchar(50),
+				password varchar(30),
+				primary key (personID)
+			)
+        ]]>
+	</query>
+
+	<!-- DROP TABLE PERSONS Query -->
+	<query id="drop_person_table">
+         <![CDATA[        
+            DROP TABLE IF EXISTS person 
+        ]]>
+	</query>
+	<!-- Select all customer orders Query -->
+	<query id="insert_person">
+        <![CDATA[
+          	insert into person (personID, firstName, lastName, email, password) 
+          	values (?, ?, ?, ?, ?)
+        ]]>
+	</query>
+
+	<!-- Select a particular person by id Query -->
+	<query id="person_by_id">
+         <![CDATA[        
+            select * from person where person.personID = ?
+        ]]>
+	</query>
+
+	<!-- Select all persons -->
+	<query id="all_persons">
+         <![CDATA[        
+            select * from person
+            
+        ]]>
+	</query>
+
+	<!-- Delete a particular person by id Query -->
+	<query id="remove_person">
+         <![CDATA[        
+            delete from person where person.personID = ?
+        ]]>
+	</query>
+	
+	<!-- Update a particular person by id Query -->
+	<query id="update_person">
+         <![CDATA[        
+            update person as e 
+            set e.firstName = ?, e.lastName = ?, e.email = ?, e.password = ?
+            where e.personID = ?
+        ]]>
+	</query>
+	
+		<!-- Get person IDs Query -->
+	<query id="person_ids">
+         <![CDATA[        
+            select e.personID from person as e
+        ]]>
+	</query>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	<!-- Create table seller Query -->
+	<query id="create_seller_table">
+        <![CDATA[
+            CREATE TABLE seller(
+				sellerID varchar(10) not null,
+				firstName varchar(20),
+				lastName varchar(20),
+				email varchar(50),
+				password varchar(30),
+				primary key (sellerID)
+			)
+        ]]>
+	</query>
+
+	<!-- DROP TABLE SELLERS Query -->
+	<query id="drop_seller_table">
+         <![CDATA[        
+            DROP TABLE IF EXISTS seller 
+        ]]>
+	</query>
+	<!-- Select all customer orders Query -->
+	<query id="insert_seller">
+        <![CDATA[
+          	insert into seller (sellerID, firstName, lastName, email, password) 
+          	values (?, ?, ?, ?, ?)
+        ]]>
+	</query>
+
+	<!-- Select a particular seller by id Query -->
+	<query id="seller_by_id">
+         <![CDATA[        
+            select * from seller where seller.sellerID = ?
+        ]]>
+	</query>
+
+	<!-- Select all sellers -->
+	<query id="all_sellers">
+         <![CDATA[        
+            select * from seller
+        ]]>
+	</query>
+
+	<!-- Delete a particular seller by id Query -->
+	<query id="remove_seller">
+         <![CDATA[        
+            delete from seller where seller.sellerID = ?
+        ]]>
+	</query>
+	
+	<!-- Update a particular seller by id Query -->
+	<query id="update_seller">
+         <![CDATA[        
+            update seller as e 
+            set e.firstName = ?, e.lastName = ?, e.email = ?, e.password = ?
+            where e.sellerID = ?
+        ]]>
+	</query>
+	
+		<!-- Get seller IDs Query -->
+	<query id="seller_ids">
+         <![CDATA[        
+            select e.sellerID from seller as e
+        ]]>
+	</query>
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Create table buyer Query -->
+	<query id="create_buyer_table">
+        <![CDATA[
+            CREATE TABLE buyer(
+				buyerID varchar(10) not null,
+				firstName varchar(20),
+				lastName varchar(20),
+				email varchar(50),
+				password varchar(30),
+				primary key (buyerID)
+			)
+        ]]>
+	</query>
+
+	<!-- DROP TABLE BUYERS Query -->
+	<query id="drop_buyer_table">
+         <![CDATA[        
+            DROP TABLE IF EXISTS buyer 
+        ]]>
+	</query>
+	<!-- Select all customer orders Query -->
+	<query id="insert_buyer">
+        <![CDATA[
+          	insert into buyer (buyerID, firstName, lastName, email, password) 
+          	values (?, ?, ?, ?, ?)
+        ]]>
+	</query>
+
+	<!-- Select a particular buyer by id Query -->
+	<query id="buyer_by_id">
+         <![CDATA[        
+            select * from buyer where buyer.buyerID = ?
+        ]]>
+	</query>
+
+	<!-- Select all buyers -->
+	<query id="all_buyers">
+         <![CDATA[        
+            select * from buyer
+        ]]>
+	</query>
+
+	<!-- Delete a particular buyer by id Query -->
+	<query id="remove_buyer">
+         <![CDATA[        
+            delete from buyer where buyer.buyerID = ?
+        ]]>
+	</query>
+	
+	<!-- Update a particular buyer by id Query -->
+	<query id="update_buyer">
+         <![CDATA[        
+            update buyer as e 
+            set e.firstName = ?, e.lastName = ?, e.email = ?, e.password = ?
+            where e.buyerID = ?
+        ]]>
+	</query>
+	
+		<!-- Get buyer IDs Query -->
+	<query id="buyer_ids">
+         <![CDATA[        
+            select e.buyerID from buyer as e
+        ]]>
+	</query>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	<!-- Create table person Query -->
+	<query id="create_bid_table">
+        <![CDATA[
+            CREATE TABLE bid(
+				bidID varchar(10) not null,
+				bidPrice varchar(20),
+				primary key (bidID)
+			)
+        ]]>
+	</query>
+
+	<!-- DROP TABLE BIDS Query -->
+	<query id="drop_bid_table">
+         <![CDATA[        
+            DROP TABLE IF EXISTS bid 
+        ]]>
+	</query>
+	<!-- Select all customer orders Query -->
+	<query id="insert_bid">
+        <![CDATA[
+          	insert into bid (bidID, bidPrice) 
+          	values (?, ?)
+        ]]>
+	</query>
+
+	<!-- Select a particular person by id Query -->
+	<query id="bid_by_id">
+         <![CDATA[        
+            select * from bid where bid.bidID = ?
+        ]]>
+	</query>
+
+	<!-- Select all persons -->
+	<query id="all_bids">
+         <![CDATA[        
+            select * from bid
+        ]]>
+	</query>
+
+	<!-- Delete a particular person by id Query -->
+	<query id="remove_bid">
+         <![CDATA[        
+            delete from bid where bid.bidID = ?
+        ]]>
+	</query>
+	
+	<!-- Update a particular person by id Query -->
+	<query id="update_bid">
+         <![CDATA[        
+            update bid as e 
+            set e.bidPrice = ?
+            where e.bidID = ?
+        ]]>
+	</query>
+	
+		<!-- Get person IDs Query -->
+	<query id="bid_ids">
+         <![CDATA[        
+            select e.bidID from bid as e
+        ]]>
+	</query>
+	
+	
+	
+	
+	
+		<!-- Create table person Query -->
+	<query id="create_feedback_table">
+        <![CDATA[
+            CREATE TABLE feedback(
+				feedbackID varchar(10) not null,
+				feedback varchar(1000),
+				primary key (feedbackID)
+			)
+        ]]>
+	</query>
+
+	<!-- DROP TABLE FEEDBACKS Query -->
+	<query id="drop_feedback_table">
+         <![CDATA[        
+            DROP TABLE IF EXISTS feedback 
+        ]]>
+	</query>
+	<!-- Select all customer orders Query -->
+	<query id="insert_feedback">
+        <![CDATA[
+          	insert into feedback (feedbackID, feedback) 
+          	values (?, ?)
+        ]]>
+	</query>
+
+	<!-- Select a particular person by id Query -->
+	<query id="feedback_by_id">
+         <![CDATA[        
+            select * from feedback where feedback.feedbackID = ?
+        ]]>
+	</query>
+
+	<!-- Select all persons -->
+	<query id="all_feedbacks">
+         <![CDATA[        
+            select * from feedback
+        ]]>
+	</query>
+
+	<!-- Delete a particular person by id Query -->
+	<query id="remove_feedback">
+         <![CDATA[        
+            delete from feedback where feedback.feedbackID = ?
+        ]]>
+	</query>
+	
+	<!-- Update a particular person by id Query -->
+	<query id="update_feedback">
+         <![CDATA[        
+            update feedback as e 
+            set e.feedback = ?
+            where e.feedbackID = ?
+        ]]>
+	</query>
+	
+		<!-- Get person IDs Query -->
+	<query id="feedback_ids">
+         <![CDATA[        
+            select e.feedbackID from feedback as e
+        ]]>
+	</query>
+	
+	
+	
+	
+		
+	
+
+</Querys>
